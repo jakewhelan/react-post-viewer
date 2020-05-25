@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    "baseUrl": "client/src",
+    "moduleResolution": "node",
+    "target": "es5",
+    "downlevelIteration": true,
+    "lib": [
+      "es5",
+      "es2015",
+      "es2016",
+      "es2017",
+      "es2018",
+      "es2019",
+      "es2020",
+      "dom"
+    ],
+    "jsx": "react",
+    "sourceMap": true,
+    "allowJs": false,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "resolveJsonModule": true,
+    "paths": {
+      "@app/app.interfaces": [
+        "app.interfaces"
+      ],
+      "@app/app.store": [
+        "app.store"
+      ],
+      "@core/*": [
+        "core/*"
+      ],
+      "@post-tree/*": [
+        "post-tree/*"
+      ]
+    }
+  },
+  "awesomeTypescriptLoaderOptions": {
+    "useBabel": true,
+    "useCache": true
+  }
+}

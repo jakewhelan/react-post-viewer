@@ -1,0 +1,10 @@
+{
+  "configurations": [
+    {
+      "name": "Attach to react-post-viewer process",
+      "type": "node",
+      "request": "attach",
+      "port": 9229
+    }
+  ]
+}
